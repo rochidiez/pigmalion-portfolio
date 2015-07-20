@@ -27,7 +27,7 @@ div.col-lg-12 {
 
 
 .h5_custom {
-    font: 300 28px / 30px Raleway;
+    font: 300 28px / 30px ralewayregular;
     color: #ffffff;
     margin-top: 2em;
     margin-bottom: 1em;
@@ -102,7 +102,7 @@ div.col-lg-12 {
 }
 
 .h4_custom {
-    font: 500 18px / 22px Raleway;
+    font: 500 18px / 22px ralewayregular;
     color: #ffffff;
     margin-top: 2em;
     margin-bottom: 0em;
@@ -116,7 +116,7 @@ div.col-lg-12 {
     color: black;
 }
 
-.storesbudget img {width: 100%;}
+.storesbudget img {width: 100%; float: center; }
 .storesbudget img:hover {opacity: .8;}
 .img-ipad-custom {
     position: absolute;
@@ -129,7 +129,7 @@ div.col-lg-12 {
 
 
 .h5_custom_black {
-    font: 300 28px / 30px Raleway;
+    font: 300 28px / 30px ralewayregular;
     color: #000000;
     margin-top: 2em;
     margin-bottom: 1em;
@@ -142,7 +142,7 @@ div.col-lg-12 {
 }
 
 .h4_custom_black {
-    font: 500 20px / 25px Raleway;
+    font: 500 20px / 25px ralewayregular;
     color: #000000;
     margin-top: 2em;
     margin-bottom: 1em;
@@ -327,7 +327,7 @@ div.col-lg-12 {
         top: 167px;
         left: 26%;
     }
-   .img-cell-custom {
+    .img-cell-custom {
         position: absolute;
         z-index: 27;
         top: -24%;
@@ -345,6 +345,10 @@ div.col-lg-12 {
 @media only screen and (max-width : 320px){
 
 }
+
+
+
+
 
 
 
