@@ -1,0 +1,356 @@
+.carousel-caption {bottom: 20% !important;
+    text-shadow:0 0 0;
+}
+.carousel-caption img {width: 100%;}
+.proyect {
+    margin-bottom: 6px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.img-cell-custom {
+    position: absolute;
+    z-index: 27;
+    top: -25%;
+    left: -11%;
+    overflow: hidden;
+    width: 122%;
+}
+div.col-lg-12 {
+    padding-right: 0px !important;
+}
+.p_custom_carousel {
+    font: 14.33px / 20.778px 'open_sanslight';
+    font-weight: 300 !important;
+    width: 90%;
+    margin: 20px auto 50px auto; 
+}
+
+
+
+.h5_custom {
+    font: 300 28px / 30px Raleway;
+    color: #ffffff;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding-right:20px;
+}
+
+.p_custom {
+    color: #ffffff;
+    font: 300 15px / 25.778px 'open_sanslight';
+    padding-right: 2em;
+}
+
+.col_blue_custom {
+    background-color: #139ae7;
+    background-size: auto;
+    padding-top: 0;
+    height: 100%;
+    min-height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: 6px solid #137EE7;
+    padding-bottom: 16%;
+    position: relative;
+
+}
+.decoration {position: absolute;
+    right: -4%;}
+.decoration .top {top: 0;}
+.decoration .down {bottom: 0;}
+
+
+
+.links_redes {list-style: none; padding-left: 0; clear: both;}
+.links_redes li {clear: both;}
+.links_redes img {float: left; margin-right: 6px; margin-top: 4px;}
+.links_redes p {
+    color: #ffffff;
+    font: 400 15px / 25.778px 'open_sansregular';
+    float: left;
+    margin: 6px 0 4px 4px;
+
+}
+.links_redes p:hover {text-decoration: underline;}
+.img_custom {
+    margin-bottom: 0.5em;
+}
+
+
+
+.box_blue {
+    padding-top: 3em;
+
+}
+
+.big_text_custom {
+    padding-top: 4em;
+}
+
+
+
+.logo_custom {
+    margin-bottom: 1em;
+    margin-top:2em;
+    max-width: 20%;
+    min-width: 200px;
+}
+
+.h3_custom {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    font: 600 19.33px / 25.778px 'open_sansregular';
+}
+
+.h4_custom {
+    font: 500 18px / 22px Raleway;
+    color: #ffffff;
+    margin-top: 2em;
+    margin-bottom: 0em;
+}
+
+.h3_custom_store {
+    float: left;
+    margin-top: 20%;
+    margin-bottom: 1em;
+    font: 600 14.33px / 20.778px 'open_sansregular';
+    color: black;
+}
+
+.storesbudget img {width: 100%;}
+.storesbudget img:hover {opacity: .8;}
+.img-ipad-custom {
+    position: absolute;
+    z-index: 27;
+    top: -27px;
+    left:-37px;
+    width: 115%;
+}
+
+
+
+.h5_custom_black {
+    font: 300 28px / 30px Raleway;
+    color: #000000;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.p_custom_black {
+    color: #000000;
+    font: 300 15px / 25.778px 'open_sansregular';
+    padding-right: 1em;
+}
+
+.h4_custom_black {
+    font: 500 20px / 25px Raleway;
+    color: #000000;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.h3_custom_store_black {
+    margin-top: 6em;
+    margin-bottom: 1em;
+    font: 600 19.33px / 25.778px 'open_sansregular';
+    color: #000000;
+}
+
+.big_carousel_custom {
+    width: 100%;
+    padding: inherit;
+}
+
+.div_a_link_custom {
+    padding-top:5px;
+}
+
+#carousel-ipad ipad_V {
+    width: 100%;
+}
+
+.ipad_V_custom {
+    width: 67% !important;
+}
+
+.img-ipad_V-custom {
+    position: absolute;
+    z-index: 27;
+    top: -30px;
+    left:0px;
+    width: 70%;
+}
+
+.head_custom {
+    z-index: 9999;
+}
+
+.scroll_custom {
+    position: absolute;
+    z-index: 9999;
+    top: 80%;
+    text-align: center;
+    left: 43.4%;
+}
+
+.scroll_custom_2 {
+    position: absolute;
+    z-index: 100;
+    top: 1500px;
+    text-align: center;
+    left: 90%;
+}
+
+.scroll_custom_3 {
+    position: absolute;
+    z-index: 101;
+    top: 2350px;
+    text-align: center;
+    left: 90%;
+}
+
+.scroll_home {
+    position: absolute;
+    z-index: 9999;
+    top: 3300px;
+    text-align: center;
+    left: 90%;
+}
+
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+    .scroll_custom {
+        top: 95%;
+        left: 42%;
+    }
+    .img-cell-custom {
+        top: -25%;
+        left: -8%;
+        max-width: 81%;
+    }
+    .h4_custom {
+        padding-left: 10%;
+    }
+    .h5_custom {
+        padding-left: 10%;
+    }
+    .p_custom {
+        padding-left: 10%;
+    }
+    .links_redes {
+        margin-left: 10%;
+    }
+    div.carousel-inner.custom_cell_img{
+        left: 0% !important;
+        max-width: 62% !important;
+        padding-top: 0% !important;
+    }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+    .p_custom_carousel {
+        font-size: 10px;
+    }
+    .title_custom_carousel {
+        width: 50%;
+    }
+    div.carousel-caption {
+        bottom: -40px !important;
+    }
+    .scroll_custom {
+        top: 94%;
+        left: 40%;
+    }
+    .img-cell-custom {
+        position: absolute;
+        z-index: 27;
+        top: -25%;
+        left: -8%;
+        overflow: hidden;
+        width: 100%;
+    }
+    div.carousel-inner.custom_cell_img{
+        left: 0% !important;
+        max-width: 62% !important;
+        padding-top: 0% !important;
+    }
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+    .p_custom_carousel {
+        font-size: 10px;
+    }
+    .title_custom_carousel {
+        width: 50%;
+    }
+    div.carousel-caption {
+        bottom: -50px !important;
+    }
+    .scroll_custom {
+        top: 92%;
+        left: 38%;
+    }
+    .img-cell-custom {
+        position: absolute;
+        z-index: 27;
+        top: -24%;
+        left: -4%;
+        overflow: hidden;
+        width: 44%;
+    }
+    div.carousel-inner.custom_cell_img{
+        left: -5% !important;
+        max-width: 36% !important;
+        padding-top: 0% !important;
+    }
+    .decoration {display: none;}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+    .p_custom_carousel {
+        visibility:hidden
+    }
+    .title_custom_carousel {
+        width: 50%;
+    }
+    div.carousel-caption {
+        bottom: -160px !important;
+    }
+    .scroll_custom {
+        top: 167px;
+        left: 26%;
+    }
+   .img-cell-custom {
+        position: absolute;
+        z-index: 27;
+        top: -24%;
+        left: -2%;
+        width: 180%;
+    }
+    div.carousel-inner.custom_cell_img{
+        left: 0% !important;
+        max-width: 75% !important;
+        padding-top: 0% !important;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+
+}
+
+
+
+
+
+
+
+
+
