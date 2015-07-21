@@ -8,11 +8,11 @@
 }
 .img-cell-custom {
     position: absolute;
-    z-index: 27;
+    z-index: 0;
     top: -25%;
-    left: -11%;
+    left: -10%;
     overflow: hidden;
-    width: 122%;
+    width: 121%;
 }
 div.col-lg-12 {
     padding-right: 0px !important;
@@ -120,12 +120,11 @@ div.col-lg-12 {
 .storesbudget img:hover {opacity: .8;}
 .img-ipad-custom {
     position: absolute;
-    z-index: 27;
-    top: -27px;
-    left:-37px;
-    width: 115%;
+    z-index: 0;
+    top: -25px;
+    left: 19px;
+    width: 93%;
 }
-
 
 
 .h5_custom_black {
@@ -215,9 +214,36 @@ div.col-lg-12 {
     text-align: center;
     left: 90%;
 }
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
 
-
-
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+.swiper-container-ipad {
+    width: 80%;
+}
 
 /*==========  Non-Mobile First Method  ==========*/
 
@@ -228,9 +254,9 @@ div.col-lg-12 {
         left: 42%;
     }
     .img-cell-custom {
-        top: -25%;
-        left: -8%;
-        max-width: 81%;
+        top: -24%;
+        left: 20.5%;
+        max-width: 59%;
     }
     .h4_custom {
         padding-left: 10%;
@@ -244,11 +270,15 @@ div.col-lg-12 {
     .links_redes {
         margin-left: 10%;
     }
-    div.carousel-inner.custom_cell_img{
-        left: 0% !important;
-        max-width: 62% !important;
-        padding-top: 0% !important;
+    .swiper-slide img {
+        width: 100%;
+        height: 100%;
     }
+    .swiper-container {
+        width: 45%;
+        height: 45%;
+    }
+
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px){
@@ -267,16 +297,19 @@ div.col-lg-12 {
     }
     .img-cell-custom {
         position: absolute;
-        z-index: 27;
+        z-index: 0;
         top: -25%;
-        left: -8%;
+        left: 20.5%;
         overflow: hidden;
         width: 100%;
     }
-    div.carousel-inner.custom_cell_img{
-        left: 0% !important;
-        max-width: 62% !important;
-        padding-top: 0% !important;
+    .swiper-slide img {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-container {
+        width: 45%;
+        height: 45%;
     }
 
 }
@@ -297,21 +330,32 @@ div.col-lg-12 {
     }
     .img-cell-custom {
         position: absolute;
-        z-index: 27;
-        top: -24%;
-        left: -4%;
+        z-index: 0;
+        top: -27%;
+        left: 20.5%;
         overflow: hidden;
-        width: 44%;
+        width: 60%;
     }
-    div.carousel-inner.custom_cell_img{
-        left: -5% !important;
-        max-width: 36% !important;
-        padding-top: 0% !important;
+    .swiper-slide img {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-container {
+        width: 45%;
+        height: 45%;
     }
     .decoration {display: none;}
 
+    div.swiper-button-next {
+        display: none;
+    }
+    div.swiper-button-prev {
+        display: none;
+    }
+    .swiper-container-horizontal > .swiper-pagination {
+        display: none;
+    }
 }
-
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px){
     .p_custom_carousel {
@@ -329,15 +373,27 @@ div.col-lg-12 {
     }
     .img-cell-custom {
         position: absolute;
-        z-index: 27;
+        z-index: 0;
         top: -24%;
-        left: -2%;
-        width: 180%;
+        left: 24%;
+        width: 52%;
     }
-    div.carousel-inner.custom_cell_img{
-        left: 0% !important;
-        max-width: 75% !important;
-        padding-top: 0% !important;
+    .swiper-slide img {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-container {
+        width: 45%;
+        height: 45%;
+    }
+    div.swiper-button-next {
+        display: none;
+    }
+    div.swiper-button-prev {
+        display: none;
+    }
+    .swiper-container-horizontal > .swiper-pagination {
+        display: none;
     }
 }
 
@@ -345,6 +401,9 @@ div.col-lg-12 {
 @media only screen and (max-width : 320px){
 
 }
+
+
+
 
 
 
