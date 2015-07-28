@@ -397,6 +397,7 @@ img.bgslider {width: 100%;}
         max-width: 62% !important;
         padding-top: 0% !important;
     }
+    .decoration {display: none;}
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px){
@@ -436,7 +437,7 @@ img.bgslider {width: 100%;}
         width: 60%;
         height: 60%;
     }
-    .decoration {display: none;}
+    
 
     div.swiper-button-next {
         display: none;
