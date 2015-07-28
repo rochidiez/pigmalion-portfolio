@@ -261,7 +261,7 @@ div.col-lg-12 {
 .swiper-container-ipad_V {
     width: 60%;
 }
-
+img.bgslider {width: 100%;}
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */
